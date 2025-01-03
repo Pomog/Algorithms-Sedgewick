@@ -1,3 +1,4 @@
+package org.pomog.std;
 /******************************************************************************
  *  Compilation:  javac StopwatchCPU.java
  *  Execution:    none

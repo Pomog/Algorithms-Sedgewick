@@ -1,3 +1,4 @@
+package org.pomog.std;
 /******************************************************************************
  *  Compilation:  javac StdStats.java
  *  Execution:    java StdStats < input.txt

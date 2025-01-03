@@ -1,3 +1,4 @@
+package org.pomog.std;
 /******************************************************************************
  *  Compilation:  javac-introcs  UnicodeTest.java
  *  Execution:    java-introcs  UnicodeTest

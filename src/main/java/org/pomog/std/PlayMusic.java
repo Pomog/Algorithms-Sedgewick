@@ -1,17 +1,8 @@
-import java.io.InputStream;
+package org.pomog.std;
+
+import javax.sound.sampled.*;
 import java.io.IOException;
-
-import java.applet.*;
-import java.net.*;
-import java.io.*;
-
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.DataLine;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.SourceDataLine;
-import javax.sound.sampled.UnsupportedAudioFileException;
+import java.io.InputStream;
 
 
 public class PlayMusic {

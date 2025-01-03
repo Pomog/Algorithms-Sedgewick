@@ -1,4 +1,4 @@
-/******************************************************************************
+package org.pomog.std; /******************************************************************************
  *  Compilation:  javac StdArrayIO.java
  *  Execution:    java StdArrayIO < input.txt
  *  Dependencies: StdOut.java

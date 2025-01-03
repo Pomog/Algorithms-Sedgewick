@@ -1,4 +1,4 @@
-/******************************************************************************
+package org.pomog.std; /******************************************************************************
  *  Compilation:  javac BinaryStdIn.java
  *  Execution:    java BinaryStdIn < input > output
  *  Dependencies: none

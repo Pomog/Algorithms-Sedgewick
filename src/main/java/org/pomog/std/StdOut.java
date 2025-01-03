@@ -1,4 +1,5 @@
-package org.pomog.std; /******************************************************************************
+package org.pomog.std;
+/******************************************************************************
  *  Compilation:  javac StdOut.java
  *  Execution:    java StdOut
  *  Dependencies: none

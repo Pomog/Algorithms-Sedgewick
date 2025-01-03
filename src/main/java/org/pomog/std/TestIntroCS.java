@@ -1,3 +1,4 @@
+package org.pomog.std;
 /******************************************************************************
  *  Compilation:  javac-introcs TestIntroCS.java
  *  Execution:    java-introcs TestIntroCS n

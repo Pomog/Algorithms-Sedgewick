@@ -1,4 +1,5 @@
-package org.pomog.std; /******************************************************************************
+package org.pomog.std;
+/******************************************************************************
  *  Compilation:  javac In.java
  *  Execution:    java In   (basic test --- see source for required files)
  *  Dependencies: none

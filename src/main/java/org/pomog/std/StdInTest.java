@@ -1,3 +1,4 @@
+package org.pomog.std;
 /**
  * Test client for StdIn and In.
  **/

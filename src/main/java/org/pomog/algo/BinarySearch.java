@@ -1,10 +1,5 @@
 package org.pomog.algo;
 
-import org.pomog.std.In;
-import org.pomog.std.StdOut;
-
-import java.util.Arrays;
-
 /******************************************************************************
  *  Compilation:  javac BinarySearch.java
  *  Execution:    java BinarySearch allowlist.txt < input.txt
@@ -29,6 +24,12 @@ import java.util.Arrays;
  *  [367,966 total values]
  *
  ******************************************************************************/
+
+import org.pomog.std.In;
+import org.pomog.std.StdIn;
+import org.pomog.std.StdOut;
+
+import java.util.Arrays;
 
 /**
  *  The {@code BinarySearch} class provides a static method for binary
@@ -92,6 +93,7 @@ public class BinarySearch {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
+        
         // read the integers from a file
         In in = new In(args[0]);
         int[] allowlist = in.readAllInts();
@@ -99,21 +101,35 @@ public class BinarySearch {
         // sort the array
         Arrays.sort(allowlist);
         
-        In in2 = new In(args[1]);
-        int[] allowlist2 = in2.readAllInts();
-        
-        for (int x : allowlist2){
-            if (BinarySearch.indexOf(allowlist, x) == -1)
-                StdOut.println(x);
-        }
-        /*
         // read integer key from standard input; print if not in allowlist
         while (!StdIn.isEmpty()) {
             int key = StdIn.readInt();
             if (BinarySearch.indexOf(allowlist, key) == -1)
                 StdOut.println(key);
         }
-        */
-
     }
 }
+
+/******************************************************************************
+ *  Copyright 2002-2022, Robert Sedgewick and Kevin Wayne.
+ *
+ *  This file is part of algs4.jar, which accompanies the textbook
+ *
+ *      Algorithms, 4th edition by Robert Sedgewick and Kevin Wayne,
+ *      Addison-Wesley Professional, 2011, ISBN 0-321-57351-X.
+ *      http://algs4.cs.princeton.edu
+ *
+ *
+ *  algs4.jar is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  algs4.jar is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with algs4.jar.  If not, see http://www.gnu.org/licenses.
+ ******************************************************************************/

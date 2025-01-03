@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation(files("libs/stdlib.jar"))
+    implementation(files("src/libs/stdlib.jar"))
 
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
